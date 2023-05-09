@@ -1,0 +1,365 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+}
+
+
+.nav-icons i{
+    margin: 0 0 0 10px;
+
+
+}
+
+.nav-items{
+    display: flex;
+    list-style: none;
+    gap: 15px;
+}
+#h1p{
+    position: absolute;
+    top: 30%;
+    right:10%;
+    color: white;
+    font-size: 45px;
+    
+}
+#top-btn{
+    color: white;
+    border-radius: 2px;
+    padding: 10px 20px;
+    border-color: white;
+    position: absolute;
+    top: 47%;
+    right: 22%;
+    font-size: 32px;
+    background-color: transparent;
+    
+}
+.logo{
+    font-size: 3rem;
+}
+.top-container{
+    position: relative;
+}
+
+.top-container img{
+    width: 100%;
+}
+.mid-text{
+    text-align: center;
+}
+.mid-imgs{
+    text-align: center;
+    padding: 5% 5%;
+    display:grid;
+    row-gap: 10px;
+    column-gap: 10px;
+    grid-template-columns: auto auto auto auto;
+}
+
+.mid-imgs img{
+    width: 100%;
+}
+.bottom-container{
+    text-align: center;
+}
+
+.F1{
+    width: 295px;
+    height:342px;
+}
+.bottom-imgs{
+    padding: 3% 5%;
+    margin: 5px;
+}
+.shop-btn{
+    background-color:rgb(45, 126, 192);
+    padding: 20px;
+    border:0px;
+}
+#sbn{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;    
+}
+.mid-mid{
+    justify-content: space-between;
+    display: flex;
+    gap: 5px;
+    padding: 7% 15%;
+}
+
+.icon-container{
+    display: flex;
+    gap: 10px;
+}
+.icon-container h4{
+    margin: 0;
+}
+
+.icon{
+    color:rgb(45, 126, 192);
+}
+
+
+.price-txt{
+    color: #2d7ec0;
+}
+.mail-input{
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    background: transparent;
+}
+
+.footer{
+    margin-top: 70px;
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    padding: 10% 10%;
+    align-content: center;
+    background-color: #f9f9f9;
+}
+
+.footer-items{
+    list-style: none;
+    padding: 0;
+}
+
+a{
+text-decoration: none;
+color: black;
+}
+
+.last-footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #f9f9f9;
+    padding: 3% 5%;
+    margin:0 ;
+    align-items: center;
+}
+
+.last-footer p{
+    margin: 0;
+}
+.hr{
+    background-color: #f9f9f9;
+}
+
+hr{
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 95%;
+}
+
+.footer-icons i{
+    margin: 0 0 0 10px;
+}
+
+#privacy{
+    display: flex;
+    gap: 13px;
+}
+
+
+.About-top{
+    background-color: #f9f9f9;
+}
+
+
+.About-top h1{
+    position: absolute;
+    top: 40%;
+    left: 4%;
+    color: azure;
+    font-weight: lighter;
+
+}
+.About-top img{
+    width: 100%;
+}
+
+
+.About-second{
+    display: flex;
+    gap: 30px;
+    padding: 10% 5%;
+    align-items: center;
+    background-color: #f9f9f9;
+    flex: 1;
+}
+
+.buy-now{
+    align-items: center;
+    position: relative;
+}
+.buy-now-btn{
+    position: absolute;
+    bottom: 7%;
+    right: 37%;
+    font-size: 25px ;
+    font-size: large;
+    padding: 15px 32px;
+    border-radius: 32%;
+    border:0;
+    background-color:white;
+}
+.buy-now-btn:hover{
+    background-color: black;
+}
+
+button a{
+    color: #2d7ec0;
+}
+
+.founders-div{
+    background-color: #f9f9f9;
+    text-align: center;
+    padding: 0 5% 0 5%;
+
+}
+
+.founders-img{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 15px;
+    align-items: center;
+}
+.founders-div h2{
+    margin:0 auto 50px auto;
+    font-weight:500;
+    background-color: #f9f9f9;
+}
+.test{
+    margin: 100px auto 100px auto;
+    width: 55%;
+    display: flex;
+    font-weight: bold;
+    line-height: 1.5;
+    color:dimgray
+}
+
+.test-img{
+    
+    margin-right: 30px;
+    margin-top: 10px;
+}
+
+.test p{
+    margin: 50px 0 0 0;
+
+}
+.testimonials h2{
+    text-align: center;
+    margin: 50px auto 20px auto;
+}
+
+.test h4{
+    font-weight: 600;
+    color: black;
+    margin-top: 20px;
+
+}
+
+.nav-items a:hover{
+    color: #2d7ec0;
+
+}
+
+/* contact-us */
+
+.contact-top{
+    position: relative;
+}
+
+.Contact-top h1{
+    position: absolute;
+    top: 40%;
+    left: 5%;
+    color: white;
+    font-weight:350;
+    font-size: 350%;
+}
+
+
+.Contact-top img{
+    width:100%;
+}
+.trial{
+    display: flex;
+    gap: 250px;
+    margin:20px 0 ;
+    
+}
+
+.contact-second{
+    display: flex;
+    justify-content: space-between;
+    padding: 5% 5%;
+    gap: 120px;
+}
+
+.contact-second input{
+    margin: 10px 0;
+}
+textarea{
+    margin: 10px 0;
+}
+
+
+.query p{
+    margin: 15px 0;
+}
+
+.contact-second p{
+    margin: 0;
+    line-height: 1.5;
+    font-size:14.5px;
+}
+
+.trial input{
+    width: 220%;
+    height: 50px;
+}
+.contact-second h2{
+    margin: 30px 0;
+}
+
+.contact-second button{
+    padding: 20px 45px;
+    background-color: #1a5e96;
+    color: white;
+    border: 10px;
+    font-size: 16px;
+}
+
+.contact-second button:hover{
+    color: black;
+}
+
+.router{
+    display: flex;
+    gap: 5px;
+}
+
+
+.shop-top{
+    padding: 5% 5%;
+    display: flex;
+    gap: 30px;
+}
+@media(max-width:1015px){
+ 
+    .top-container{
+        text-align: center;
+    }
+}
